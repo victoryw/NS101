@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+    	<TargetProjects Include="$(projects)" />
+  	</ItemGroup>    
+	<Target Name="GetProjectOutput">
+        <MSBuild Projects="%(TargetProjects.Identity)" Targets="GetTargetPath">
+            <Output ItemName="targetOutputs" TaskParameter="TargetOutputs"/>
+        </MSBuild>
+        <Message Text="%(targetOutputs.Identity)" importance="high" />
+	</Target>
+</Project>
