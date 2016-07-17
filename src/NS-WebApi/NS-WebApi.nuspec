@@ -18,8 +18,7 @@
 
 
    <files>
-        <file src="bin\*.dll" target="web\bin\" />
-        <file src="bin\*.xml" target="web\bin\" />
+        <file src="bin\**" target="web\bin\" />
         <file src="Global.asax" target="web\" />
         <file src="Web.config" target="web\" />
         <file src="Areas\**" target="web\Areas\" />
