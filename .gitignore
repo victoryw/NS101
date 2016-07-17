@@ -6,3 +6,4 @@ obj/
 tmp/
 .idea/
 App_Data/*
+commit-version.txt

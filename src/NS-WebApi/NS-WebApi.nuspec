@@ -1,18 +1,31 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>$id$</id>
-    <version>$version$</version>
-    <title>$title$</title>
-    <authors>$author$</authors>
-    <owners>$author$</owners>
+    <id>NS-WebApi</id>
+    <version>1.0.0</version>
+    <title>NS-WebApi</title>
+    <authors>victoryw</authors>
+    <owners>victoryw</owners>
     <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
     <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
     <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
+    <description>come a little later</description>
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>Tag1 Tag2</tags>
   </metadata>
+
+
+   <files>
+        <file src="bin\*.dll" target="web\bin\" />
+        <file src="bin\*.xml" target="web\bin\" />
+        <file src="Global.asax" target="web\" />
+        <file src="Web.config" target="web\" />
+        <file src="Areas\**" target="web\Areas\" />
+        <file src="Content\**" target="web\Content\" />
+        <file src="Scripts\**" target="web\Scripts\" />
+        <file src="Views\**" target="web\Views\" />
+    </files>
+
 </package>

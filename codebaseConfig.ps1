@@ -6,7 +6,7 @@ $buildNumber = $Env:BUILD_NUMBER
   'projectDirs' = @("$codebaseRoot\src", "$codebaseRoot\test") 
   'libDirs' = @("$codebaseRoot\libs", "$codebaseRoot\packages")
   'extraProjectOutputs' = @()
-  'extraPackageFilesGenerateTask' = 'SomeTask'
+  'extraPackageFilesGenerateTask' = ''
   'extraPackageFiles' = @(
     @{
       'file' = "config.ini"
