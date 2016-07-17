@@ -22,7 +22,7 @@ $buildNumber = $Env:BUILD_NUMBER
         "installDir" = "$codebaseRoot\tmp\working"
     }
     'dev' = @{
-        "version" = "1.0.0.0"
+        "version" = "1.0.0"
         "pushRepo" = ""
         "apiKey" = ""
         "pullRepo" = "$codebaseRoot\tmp\nupkgs"
