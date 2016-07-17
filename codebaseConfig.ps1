@@ -1,6 +1,3 @@
-throw "Comment this line after code base is configed. "
-
-<#
 $codebaseRoot = $MyInvocation.MyCommand.Path | Split-Path -parent
 $buildNumber = $Env:BUILD_NUMBER
 @{
@@ -33,4 +30,4 @@ $buildNumber = $Env:BUILD_NUMBER
     }
   }
 }
-#>
+
