@@ -4,6 +4,9 @@
 * clone NScaffold from https://github.com/xiaoyvr/NScaffold
 * clone https://github.com/victoryw/NS101
 
+or run  this in powershell
+.\init_env.ps1 -NScaffoldCodeBasePath "C:\workspace\NS-Folder"
+
 #Setup Project Solution Folder
 * mkdir learn-NScaffold as our solution folder
 * git init
