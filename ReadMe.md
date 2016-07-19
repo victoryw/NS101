@@ -9,7 +9,9 @@ or run  this in powershell
 
 #Story
 As Dev,
+
 I want to create a webapi project with NScaffold from Zero.
+
 So that I can compile, pacakge and deploy my project.
 
 #Task List
