@@ -16,12 +16,12 @@ So that I can compile, pacakge and deploy my project.
 You are a tech leader of our team,
 so you should create a empty solution and project  where are the team member work at.
 
+
 #Task List
 * Create solution and setup solution folder struct by ns.install (plan/init time)
 * config the build script of NScaffold (init time)
 * Create the project and make it can be compiled, packaged(compile time)
 * make the package could be deployed successfully (deploy time)
-
 
 
 ## Setup Solution and solution folder struct by ns.install
@@ -35,6 +35,7 @@ NScaffold three pacakges:
 	* ns-deploy make our package install on our pc.
 ns-dev init path
 * git commit
+
 ## Setup up the build script of NScaffold
 * speak about the task and build.ns.ps1
 * go.ns.ps1 help
@@ -42,6 +43,7 @@ ns-dev init path
 * git commit
 * uncomment the codebaseconfig.ps1 and add src, test
 * git commit
+
 ##Create the project and make it can be compiled, packaged(compile time)
 * create the  web-api project name as ns-site and in the src folder
 * git commit should be save the sln file change.
@@ -56,6 +58,7 @@ ns-dev init path
 * git commit
 * go.ns.ps1 package
 * talk about the tmp folder and the pkgs.txt
+
 ## make the package could be deployed successfully
 * go.ns.ps1 deploy
 * see the deploy task, Install-NuDeployPackage, Install-NuPackage and the package task, $packageSettings.version and  $packageSettings = $codebaseConfig.package[$env]
