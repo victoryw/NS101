@@ -9,10 +9,12 @@ or run  this in powershell
 
 #Story
 As Dev,
-
 I want to create a webapi project with NScaffold from Zero.
-
 So that I can compile, pacakge and deploy my project.
+
+#context
+You are a tech leader of our team,
+so you should create a empty solution and project  where are the team member work at.
 
 #Task List
 * Create solution and setup solution folder struct by ns.install (plan/init time)
