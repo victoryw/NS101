@@ -28,13 +28,13 @@ so you should create a empty solution and project  where are the team member wor
 * create empty solution learn-NScaffold as our solution folder and auto create folder
 * git init and commit our empty solution
 * init the solution folder struct by NScaffold, (the build script, src folder, test folder and others)
-what is the NScaffold 
-NScaffold three pacakges: 
+what is the NScaffold
+NScaffold three pacakges:
 	* install is setup scafffold tools;
 	* scaffold is compile tools and other script entry
 	* ns-deploy make our package install on our pc.
-ns-dev init path	
-* git commit 
+ns-dev init path
+* git commit
 ## Setup up the build script of NScaffold
 * speak about the task and build.ns.ps1
 * go.ns.ps1 help
@@ -50,10 +50,10 @@ ns-dev init path
 * run go.ns.ps1 compile failed
 *  ..\..\.nuget\NuGet.exe spec
 * run go.ns.ps1 compile success
-* git commit 
+* git commit
 * run go.ns.ps1 package failed
 * change the nuspec
-* git commit 
+* git commit
 * go.ns.ps1 package
 * talk about the tmp folder and the pkgs.txt
 ## make the package could be deployed successfully
@@ -68,4 +68,4 @@ ns-dev init path
 
 
 * package and update nuspec file
-* speak about the nuget dev repo setting and look at the nupackage pkgs.txt 
+* speak about the nuget dev repo setting and look at the nupackage pkgs.txt
