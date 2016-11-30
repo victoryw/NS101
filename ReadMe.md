@@ -9,9 +9,9 @@ or run  this in powershell
 
 please check default nuget sources.
 .\.nuget\NuGet.exe sources
-if the local source is point to  http://10.18.7.148/nuget-libraries-repo/
+if the local source is point to  
  .\.nuget\NuGet.exe sources Remove -Name the entry name
- .\.nuget\NuGet.exe sources add -Name local -Source  http://nuget.pwc.thoughtworks.io/nuget-libraries-repo
+ .\.nuget\NuGet.exe sources add -Name local -Source 
 
  consider use the local nuget set in the code base.
 
